@@ -38,7 +38,7 @@ get_ip_from_nb()
 {
     # Use NetBox as a source
     # For this function you need set varible "NB_URL" and "NB_TOKEN" in env.
-    local IP=$($DIR/netbox.py $1)
+    local IP=$($DIR/nb_resolv.py $1)
     echo $IP
 }
 

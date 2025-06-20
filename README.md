@@ -1,2 +1,2 @@
 # connect
-Script for connecting to devices via SSH protocol
+Bash script for connecting to devices via SSH protocol
